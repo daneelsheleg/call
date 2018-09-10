@@ -1,0 +1,14 @@
+
+.header{
+    text-align: center;
+    position: relative;
+
+}
+.video{
+    width: 1349px;
+
+}
+.text{
+    position: absolute;
+    top: 0;
+}
