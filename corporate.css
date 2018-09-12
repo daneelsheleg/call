@@ -1,14 +1,123 @@
-
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'exo thin';
+    font-style: normal;
+    font-weight: normal;
+    src: url(font/Exo-Thin.woff) format('woff');
+    }
+	@font-face {
+    font-family: 'exo regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(font/Exo-Regular.woff) format('woff');
+    }
 .header{
-    text-align: center;
-    position: relative;
+    text-align:center;
+	height:899px;
 
 }
 .video{
-    width: 1349px;
-
+     width: 1349px;
+	position: relative;
+	
 }
 .text{
-    position: absolute;
-    top: 0;
+	font-family: 'exo thin';
+	font-size:60px;
+	width:1400px;
+	height:899px;
+	position: absolute;
+	left:50%;
+	top:200px;
+	margin-left: -780px;
 }
+.background-boll{
+
+	background-color:#8185A3;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	position:relative;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor:pointer
+}
+.boll{
+	
+	position:absolute;
+	color:white;
+	font-size:30px;
+	margin-left:15px;
+	margin-top:10px;
+}
+.red-block{
+	margin-top:10px;
+	margin-bottom:15px
+}
+.submit-now{
+	padding:10px 50px 10px 50px;
+	border-radius:5px;
+	  font-family: 'exo regular';
+	  font-size:16px;
+	 text-transform:uppercase;
+	background:#FF6D6D;
+	color:#FFEBEB;
+}
+.text-no{
+	font-size:16px;
+	  font-family: 'exo regular';
+	  color:#8C8C8F;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.mini-text{
+	display:none;
+}
+.header{
+	max-width:100%;
+}
+.video{
+	width:100%;
+	
+}
+.text-no{
+	display:none;
+}
+.background-boll{
+	display:none;
+}
+.submit-now{
+	display:block;
+	width:1000px;
+}
+.text{
+	display:block;
+	max-width:700px
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
